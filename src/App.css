@@ -1,0 +1,54 @@
+.App {
+    width: 800px;
+    background: rgba(245, 245, 245, 0.59);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 80px;
+
+}
+
+h1{
+    color: #11175E;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.todo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #F5F5F5;
+    width: 400px;
+    height: 40px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.todo input{
+ width: 300px;
+ border: transparent;
+}
+
+.add , .delete{
+    width:50px;
+    height: 30px;;
+    margin: 5px;
+    color: #F5F5F5;
+    background-color: #2D70FD;
+    border: transparent;
+    border-radius: 10px;
+    
+}
+
+li{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px;
+}
